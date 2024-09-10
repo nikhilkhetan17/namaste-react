@@ -14,6 +14,7 @@ console.log(heading); // object
 // const root = ReactDOM.createRoot(document.getElementById('root')); // creating root for our react app
 
 // root.render(heading);
+// root.render() is converting everything into html and then browser is rendering it
 
 // ##########------------------------- Nested Elements ---------------------------##########
 
