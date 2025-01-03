@@ -1,0 +1,44 @@
+package.json is a configration for npm.
+------------------------------------------------------------------------------
+# Parcel
+
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement (Hot reloading)
+- File Watching Algorithm - written in C++
+- Caching - Faster Builds
+- Image Optimization
+- Minification and Bundling
+- Compress
+- Differential Bundling - support for older browsers
+- Diagnostic
+- Good Error Handling
+- Tree Shaking - remove unused code
+- Different dev and prod build
+-------------------------------------------------------------------------------
+
+To apply inline styles in React, you need to use JavaScript object.
+
+const styleCard = {
+  backgroundColor: '#f0f0f0',
+};
+
+<div className="res-card" style={styleCard}>
+	<h3 style={{ color: 'violet' }}>Kushi Sweets</h3>
+</div>
+-------------------------------------------------------------------------------
+props --> properties
+Passing a prop to a component is just like passing an argument to a function
+props are just normal arguments to a function
+----------------------------------------------------------------------------
+
+congif driven UI -> controlling your UI using data(config) -> that config comes from backend
+We have written our UI once and the data coming from backend and my UI is getting changed.
+
+Example- Swiggy, Zomato
+--------------------------------------------------------------------------------
+
+React official doc says that never use index as the key
+
+not using keys(not acceptable) <<<<<<<<<< index as a key (use only if you dont have unique id) <<<<<<<<<<<< unique id (best practice)
+--------------------------------------------------------------------------------
